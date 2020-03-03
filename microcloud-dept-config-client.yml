@@ -60,9 +60,9 @@ management:
 spring:
   profiles: dev
   application:
-    name: microcloud-provider-dept-config-dev
+    name: microcloud-config-dept-client
 ---
 spring:
   application:
-    name: microcloud-provider-dept-config-bate
+    name: microcloud-config-dept-client
   profiles: bate
